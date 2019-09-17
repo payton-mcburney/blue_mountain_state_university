@@ -1,0 +1,27 @@
+h1 {
+    color: #FFFFFF;
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0000FF;
+}
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #0000AD;
+}
