@@ -1,7 +1,7 @@
 h1 {
     color: #FFFFFF;
 }
-ul {
+ul.header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -9,19 +9,30 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #0000FF;
+    background-color: #010D5C;
 }
 li {
     float: left;
 }
 li a{
     display: block;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 12px;
     text-decoration: none;
 }
 
 li a:hover{
-    background-color: #0000AD;
+    background-color: #4BA80A; /* #0218A8 */
+}
+
+li a.active{
+    background-color: #01138F;
+    color: #FFFFFF;
+}
+
+ul.schedule{
+    list-style: square inside url('../img/basketball.png');
+    margin: 0;
+    padding: 2px;
 }
