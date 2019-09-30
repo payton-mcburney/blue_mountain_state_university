@@ -3,15 +3,38 @@
 <html lang="en">
 
 <head>
+  <style>
+    nav li a.active {
+      background-color: white;
+
+    }
+  </style>
 
   <meta charset="utf-8">
 
   <title>"Blue Mountain State University Basketball"</title>
 
-  
-  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css">
+
+    <!-- If you don't like how sandstone looks, go here and see other themes
+         that are available:
+         https://bootswatch.com/
+
+         You can replace the 'optional theme' with links from the page below
+         to get that theme:
+         https://www.bootstrapcdn.com/bootswatch/
+    -->
 
 </head>
+
 
 
 
@@ -22,45 +45,71 @@
 
 
 
+<!-- For more info about the navbar, see:
+    https://getbootstrap.com/docs/4.0/components/navbar/
+    --->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">Blue Mountain State University Basketball</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="schedule.html">Schedule</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="roster.html">Roster</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="stats.html">Stats </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="all_time_players.html"> All-Time Players</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="information.html"> BMSU Information</a>
+          </li>
 
 
-  <h1 style="text-align:center;font-size: 50px;">Blue Mountain State University Basketball!</h1>
+          </li>
+        </ul>
 
-  <nav>
+      </div>
+    </nav>
 
-<ul>
-  <li><a href="index.html" class="active">Homepage</a></li>
-
-
-
-	<li><a href="schedule.html">Schedule</a></li>
+</head>
 
 
 
-    <li><a href="roster.html">Roster</a></li>
 
+<body>
+  <div class="alert alert-info" role="alert">
+  You are on BMSU's basketball info pages! For more information about the school please click Learn more!
+  </div>
 
-
-    <li><a href="stats.html">Stats</a></li>
-
-
-
-    <li><a href="all_time_players.html">All-Time Players</a></li>
-
-
-
-    <li><a href="information.html">BMSU Information</a></li>
-
-
-
-   </ul> 
-
-</nav>
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to BMSU!</h1>
+    <p class="lead">Go Mountain Goats!</p>
+    <hr class="my-4">
+    <p>Come learn from one of the top schools in the state!</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </div>
 
 
   <img src= "img/campus.jpg" alt="BMSU Campus"/> <!-- 1. added a picture-->
 
-
+<
 <footer>
 
   © Copyright 2019, Blue Mountain State University

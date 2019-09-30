@@ -4,59 +4,126 @@
 <html lang="en">
 <head>
   <style>
-    p {
-  text-align: left;
-  font-size:20px;
-  color: black
-}
-
+    .row {
+      border-style: solid;
+    }
   </style>
+
   <meta charset="utf-8">
 
   <title>Blue Mountain State University Information</title>
-  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/cerulean/bootstrap.min.css">
+
+    <!-- If you don't like how sandstone looks, go here and see other themes
+         that are available:
+         https://bootswatch.com/
+
+         You can replace the 'optional theme' with links from the page below
+         to get that theme:
+         https://www.bootstrapcdn.com/bootswatch/
+    -->
+
+</head>
+
+
+
+
+
+<body>
+
+  
+
+
+
+
+
+<!-- For more info about the navbar, see:
+    https://getbootstrap.com/docs/4.0/components/navbar/
+    --->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">      <a class="navbar-brand" href="#">Blue Mountain State University Basketball</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="schedule.html">Schedule</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="roster.html">Roster</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="stats.html">Stats </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="all_time_players.html"> All-Time Players</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="information.html"> BMSU Information</a>
+          </li>
+
+
+          </li>
+        </ul>
+
+      </div>
+    </nav>
 </head>
 
 <body>
 
-<nav>
-<ul>
 
-    <li><a href="index.html">Homepage</a></li>
 
-	<li><a href="schedule.html">Schedule</a></li>
-
-    <li><a href="roster.html">Roster</a></li>
-
-    <li><a href="stats.html">Stats</a></li>
-
-    <li><a href="all_time_players.html">All-Time Players</a></li>
-
-    <li><a href="information.html" class="active">BMSU Information</a></li>
-
-   </ul> 
-</nav>
 
 <img src="img/bmsu_team.jpg" alt="BMSU roster"/>
 
-<h1>History of Blue Mountain State</h1>
-<b><p id="How"> How The School Started</p></b>
-<div><p>Blue Mountain State University was first established in the year 1838 by a scholar named Alex Moran.</p>
-<b><p id="tution"> Location and Tution</p></b>
-<p>It is located in Erie, Pennsylvania. With an in-state tution of $8,219 and out of state tuition of $21,583. That number can fluxuate depending on scholarships and your academic achievements in high school.</p> </div>
-<br>
+<div class="container">
+    <h1>History of Blue Mountain State</h1>
 
-<body>
-<b><p id="Conference"> Virginia Intercolegiate Athletic Conference</p></b>
-<p>Blue Mountain State University competes in the West Virginia Intercollegiate Athletic Conference where they have acheived multiple conference titles as well as a handful of National Champioships. The basketball team is coming of a record season winning the conference as well as advancing all the way until the Final Four. The football team has won 3 of the last four National Championships  and are looking for the three-peat this season. The womens teams have been succesful as well. Volleyball and basketball have not had a losing season since 2003 and are continuing to get better each year.</p>
+    <div class="row">
+      <div class="col-12 col-md-6">
+      <b><p>How The School Started</p></b>
+      Blue Mountain State University was first established in the year 1838 by a scholar named Alex Moran.
+      </div>
 
-<b><p id="Track_and_Field"> Track and Field</p></b>
+  
+    <div class="col-12 col-md-6">
+    <b><p>Location and Tution</p></b>
+    It is located in Erie, Pennsylvania. With an in-state tution of $8,219 and out of state tuition of $21,583. That number can fluxuate depending on scholarships and your academic achievements in high school. 
+    </div>
 
-<p>The Track and Field team for BMSU has also had multiple conference trophies. They have had at least one member from the team go on to compete in Nationals every year.They are on a winning conference streak of 4 wins and they plan to get their 5th trophy this year. </p> <!--2. added a paragraph-->
-</body> <!--they did not have <p></p> to signify that it=t was a paragraph in the body and no <p> in the <div> section-->
-  </tbody>
+
+    <div class="col-12 col-md-6">
+    <b><p>Virginia Intercolegiate Athletic Conference</p></b>
+    Blue Mountain State University competes in the West Virginia Intercollegiate Athletic Conference where they have acheived multiple conference titles as well as a handful of National Champioships. The basketball team is coming of a record season winning the conference as well as advancing all the way until the Final Four. The football team has won 3 of the last four National Championships  and are looking for the three-peat this season. The womens teams have been succesful as well. Volleyball and basketball have not had a losing season since 2003 and are continuing to get better each year.
+    </div>
+
+    <div class="mycolor col-12 col-md-6">
+    <b><p> Track and Field</p></b>
+    The Track and Field team for BMSU has also had multiple conference trophies. They have had at least one member from the team go on to compete in Nationals every year.They are on a winning conference streak of 4 wins and they plan to get their 5th trophy this year. 
+    </div>
+  </div>
+</body> 
+  
 <footer>
-
+  
   © Copyright 2019, Blue Mountain State University
 </footer>
 </body>
