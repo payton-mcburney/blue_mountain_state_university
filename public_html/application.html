@@ -9,17 +9,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
-   <style>
-  h1 {
-      text-align: center;
-      font-size: 30px;
-	  color: blue;
-  }
+  <style>
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        color: blue;
+    }
   </style>
+  <!-- Code found on https://stackoverflow.com/questions/12887702/javascript-display-new-page-when-submit-html-form -->
+  <script>
+    // Called on body's `onload` event
+    function init() {
+        // Retrieving the text input's value which was stored into localStorage
+        var applicationFirstName = localStorage.getItem("applicationFirstName");
+        var applicationLastName = localStorage.getItem("applicationLastName");
+        var applicationEmail = localStorage.getItem("applicationEmail");
 
+        // Writing the value in the document
+        document.getElementById("thankYouMessage").innerHTML ="Thank you for applying " + applicationFirstName + " " + applicationLastName + "! We will contact you shortly through email at " + applicationEmail + ".";
+    }
+  </script>
 </head>
 
-<body>
+<body onload="init()">
 
  <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="#"></a>
@@ -31,10 +43,6 @@
  
 	<ul class="navbar-nav mr-auto">
 
-		<li class="nav-item active">
-            <a class="nav-link" href="#">Application <span class="sr-only">(current)</span></a>
-          </li>
-		  
 		<li class="nav-item"><a class="nav-link" href="index.html">Homepage</a></li>   
 		<li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
 		<li class="nav-item"><a class="nav-link" href="roster.html">Roster</a></li>
@@ -42,7 +50,6 @@
 		<li class="nav-item"><a class="nav-link" href="all_time_players.html">All-Time Players</a></li>
 		<li class="nav-item"><a class="nav-link" href="information.html">BMSU Information</a></li>
 		
-
 	 </ul> 
 	 
     </div>
@@ -52,7 +59,7 @@
 <div class="container">
 <div class="alert alert-info">
 
-  <strong>"Thank you for applying! We will respond shortly over email!"</strong>
+  <strong><p id="thankYouMessage"></p></strong>
 </div>
 </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
