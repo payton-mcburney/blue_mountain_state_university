@@ -3,21 +3,21 @@
 <html lang="en">
 <head>
 
-  <meta charset="utf-8">
-  <title>Blue Mountain State University Information</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
+	<meta charset="utf-8">
+	<title>Blue Mountain State University Information</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
     <style>
-		  .center {
-			  display: block;
-			  margin-left: auto;
-			  margin-right: auto;
-			  width: 50%;
-			}
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
 		.footer {
-		  width: 100%;
-		  height: 2.5rem;            /* Footer height */
+			width: 100%;
+			height: 2.5rem;            /* Footer height */
 		}
   </style>
 </head>

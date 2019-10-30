@@ -39,7 +39,7 @@
 
   <div class="container">
     <div class="alert alert-success">
-      <strong><p id="thankYouMessage"></p></strong>
+      <p id="thankYouMessage"></p>
     </div>
     <div class="row justify-content-center">
       <img src="img/coin.png" alt="A gold coin.">
